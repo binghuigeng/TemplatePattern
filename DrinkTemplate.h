@@ -11,6 +11,7 @@ class DrinkTemplate
 {
 public:
     DrinkTemplate();
+    /// @brief 基类析构函数定义为虚函数的原因：确保正确调用派生类的析构函数
     virtual ~DrinkTemplate();
 
     /// @brief 煮水
